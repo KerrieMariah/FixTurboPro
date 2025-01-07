@@ -101,7 +101,11 @@ const HeaderOne = () => {
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
           <div className="menu-area">
-            
+            <div className="header-navbar-logo">
+              <Link href="/">
+                <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+              </Link>
+            </div>
             <div className="container">
               <div className="row align-items-center justify-content-lg-start justify-content-between">
                 <div className="col-auto d-xl-none d-block">
